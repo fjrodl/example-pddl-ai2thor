@@ -13,10 +13,11 @@ def init_controller():
     event = controller.step(action="Pass")
 
     # 👇 añadir cámara DESPUÉS de inicializar
+    # Isometric view for better visualization of movement
     event = controller.step(
         action="AddThirdPartyCamera",
-        position={"x": 0, "y": 4, "z": 0},
-        rotation={"x": 90, "y": 0, "z": 0},
+        position={"x": 2, "y": 2, "z": 2},      # Isometric position
+        rotation={"x": 45, "y": 225, "z": 0},   # Good angle to see movement and objects
         fieldOfView=90
     )
     
