@@ -115,6 +115,33 @@ See [CAMERA_CONFIG_GUIDE.md](CAMERA_CONFIG_GUIDE.md) for detailed camera paramet
 
 ---
 
+## 📚 Teaching Material - For Cognitive Robotics Course
+
+### **Complete PDDL Pipeline Explanation**
+
+See [COGNITIVE_ROBOTICS_FLOW.md](COGNITIVE_ROBOTICS_FLOW.md)
+
+This comprehensive document explains the entire architecture for students:
+- **Part 1-2:** PDDL domain and problem definition
+- **Part 3-4:** How the software extracts state and creates problems
+- **Part 5-6:** Goal selection and PDDL planning process
+- **Part 7-11:** Complete execution pipeline with diagrams
+- **Part 12:** Hands-on exercises
+
+Perfect for:
+- 🎓 University courses on cognitive robotics
+- 📖 Understanding autonomous task planning
+- 🤖 Learning symbolic AI and PDDL
+- 💡 Seeing theory applied in practice
+
+**Recommended usage:**
+1. Students read COGNITIVE_ROBOTICS_FLOW.md first
+2. Run `python run.py` to see it in action
+3. Examine source code files referenced in doc
+4. Modify domain/problem for exercises
+
+---
+
 ### 4. **Step-by-Step Visualization** - `visualize_steps.py`
 Interactive or automated visualization of the AI2-Thor simulator with detailed state inspection.
 
