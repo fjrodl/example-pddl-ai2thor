@@ -1,0 +1,57 @@
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# 📦 Entornos virtuales
+# =========================
+venv/
+.env/
+.envrc/
+
+# =========================
+# 🧪 Archivos temporales
+# =========================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# 📊 Salidas del proyecto
+# =========================
+plan.txt
+*.csv
+*.json
+*.png
+*.mp4
+
+# =========================
+# 🧠 AI2-THOR / datos
+# =========================
+data/
+frames/
+
+# =========================
+# 📝 PDDL generados
+# =========================
+pddl/problem.pddl
+
+# (mantén el dominio versionado)
+!pddl/domain.pddl
+
+# =========================
+# 🧰 VSCode
+# =========================
+.vscode/
+
+# =========================
+# 🧾 Sistema
+# =========================
+.DS_Store
+Thumbs.db

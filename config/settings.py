@@ -1,0 +1,3 @@
+SCENE = "FloorPlan1"
+WIDTH = 640
+HEIGHT = 480
